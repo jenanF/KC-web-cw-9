@@ -33,7 +33,7 @@ function load() {
 
   orders.forEach((item) => {
     container.innerHTML += 
-      `<div> <h1>${item.name} - ${item.id}</h1><h3>${item.order}</h3></div>`
+      `<div> <h1>${item.name} - ${item.id}  - ${item.phone}</h1><h3>${item.order}</h3></div>`
     
   })
 
